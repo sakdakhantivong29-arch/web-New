@@ -1,18 +1,30 @@
 {
-  "name": "node-js",
+  "name": "js",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# movie\" \r \"# movie\"",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --watch ./*.js --watch ././*.js"
-
+    "start": "nod server.js",
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-  "express": "^5.1.0",
-  "nodemon": "^3.1.10",
-  "save-dev": "^0.0.1--security"
+    "expres": "^0.0.5",
+    "express": "^5.1.0",
+    "save-dev": "^0.0.1--security"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakdakhantivong29-arch/web-New.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/sakdakhantivong29-arch/web-New/issues"
+  },
+  "homepage": "https://github.com/sakdakhantivong29-arch/web-New#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
